@@ -10,8 +10,8 @@ void main() async {
   
   // Initialize Supabase
   await SupabaseService.initialize(
-    supabaseUrl: 'YOUR_SUPABASE_URL',
-    supabaseAnonKey: 'YOUR_SUPABASE_ANON_KEY',
+    supabaseUrl: 'https://rwilxoogpdcfqvftctsl.supabase.co',
+    supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ3aWx4b29ncGRjZnF2ZnRjdHNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY0MjE1NzAsImV4cCI6MjA3MTk5NzU3MH0.OU2NdVz42IX9sp40zkf_nFNjC6V3JsZE7Rq2ehQJFgI',
   );
 
   runApp(const MyApp());
